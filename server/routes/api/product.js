@@ -251,7 +251,7 @@ router.post(
 router.get(
   '/',
   auth,
-  role.check(ROLES.Admin, ROLES.Merchant),
+  role.check(ROLES.Admin, ROLES.Merchant, ROLES.Member),
   async (req, res) => {
     try {
       let products = [];
