@@ -1,9 +1,9 @@
 export const API_URL = 'https://oddstudio.vercel.app/api';
 
-export const SOCKET_URL =
-  window.location.host.indexOf('localhost') >= 0
-    ? 'http://127.0.0.1:3000'
-    : window.location.host;
+export const SOCKET_URL = 'https://oddstudio.vercel.app';
+// window.location.host.indexOf('localhost') >= 0
+//   ? 'http://127.0.0.1:3000'
+//   : window.location.host;
 
 export const ROLES = {
   Admin: 'ROLE ADMIN',
