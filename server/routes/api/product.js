@@ -250,7 +250,7 @@ router.post(
 // fetch products api
 router.get(
   '/',
-  auth,
+  // auth,
   // role.check(ROLES.Admin, ROLES.Merchant),
   async (req, res) => {
     try {
